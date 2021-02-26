@@ -1,0 +1,36 @@
+.dates{
+      
+    display: flex;
+    flex-flow: column;
+    border: 1px solid red;
+    border-radius: 2px;
+
+}
+
+
+.jour{
+  
+    width: 10%;
+    border: 0.5px solid rgb(133, 77, 77); 
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 2px;
+}
+.jours{
+    display: flex;
+    flex-flow: row ;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+ }
+ .aff{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+
+  
+ }
